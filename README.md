@@ -30,6 +30,7 @@ Live demo:https://lawfuhin.github.io/projects/aboutme/index.html
 
 Source Code:https://github.com/LawFuHin/aboutme/tree/main/aboutme
 
+--------------------------------------------------------------------------------
 
 "Project Canvas", an online Drawing App utilizing [ js, jquery, Canvas API ]
 
@@ -37,12 +38,15 @@ Live demo:https://lawfuhin.github.io/projects/canvas/index.html
 
 Source Code:https://github.com/LawFuHin/Project-Canvas
 
+--------------------------------------------------------------------------------
 
 "Learn Cantonese Easier", an introduction website to a university society [html, css, jquery]
 
 Live demo:https://lawfuhin.github.io/projects/cantonese/index.html
 
 Source Code:
+
+--------------------------------------------------------------------------------
 
 "SpeedX", a full-stack second hand trading platform utlizing [React, Knex, JWT, API]
 
