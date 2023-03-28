@@ -1,0 +1,188 @@
+/* #navbar-section{
+      background-color: white;
+      position: sticky;
+      top: 0px;
+      z-index: 10;}
+
+.navbar{
+          border-radius: 10px;
+        }
+.title-container {
+
+        border-radius: 10px;
+        padding: 30px;
+        min-height: 100px;
+        background-color: black;
+      }
+
+h5{
+  color: white;
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 30px;
+}
+
+
+body{
+        background: white;
+        font-family: 'Noto Serif TC', serif;
+        color: black;
+        height: 100%;
+      }
+
+.eventpart{
+          border-radius: 10px;
+          padding: 30px;
+          min-height: 200px;
+          color: white;
+        }
+.card {
+          background-color: black;
+}
+.accordion{
+            z-index: -1;
+            border-radius: 20px;
+            text-align:center;
+            width: 100%;
+            color: black;
+            padding: 60px;
+          } */
+
+/* .gallery {
+  height: 800px;
+}
+
+.gallery-photo {
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 800px;
+  border-radius: 20px 0 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-photo {
+    border-radius: 20px;
+  }
+}
+
+.gallery-caption {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  background-color: black;
+  border-radius: 0 20px 20px 0;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-caption {
+    width: 540px;
+    color: white !important;
+    position: absolute;
+    align-items: calc(100%-100px);
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .captionContent {
+    position: absolute;
+    bottom: 50px;
+    border-radius: 10px;
+    background-color: red;
+    z-index: 0;
+  }
+}
+#school1 {
+  background-image: url(./school1.jpg);
+}
+#school2 {
+  background-image: url(./school2.jpg);
+}
+#school3 {
+  background-image: url(./school3.jpg);
+}
+#wordexample {
+  text-align: center;
+}
+#eventsharing {
+  text-align: center;
+}
+#cantonesetour {
+  text-align: center;
+}
+
+.panel {
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.question-container {
+  margin: 30px;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+  font-size: x-large;
+  text-align: center;
+}
+.result {
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+.option-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  padding: 5px;
+  width: 100%;
+  height: 20vh;
+}
+.option {
+  padding: 30px;
+  width: 400px;
+  height: 20vh;
+  font-size: larger;
+  background-color: grey;
+}
+.option:hover {
+  background-color: lightgoldenrodyellow;
+}
+.navigation {
+  width: 100%;
+  height: 10vh;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.evaluate,
+.next {
+  width: 100%;
+  height: 8vh;
+  padding: 5px;
+  font-size: larger;
+}
+
+.evaluate {
+  color: white;
+  background-color: #1e8449;
+}
+
+.next {
+  color: white;
+  background-color: #b03a2e;
+} */

@@ -1,0 +1,223 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 0, 36, 1) 0%,
+    rgba(50, 9, 121, 1) 33%,
+    rgba(142, 31, 172, 1) 90%,
+    rgba(142, 31, 172, 0.5) 100%
+  );
+}
+
+/* body * {
+  border: 1px solid red !important;
+} */
+
+.navbar {
+  background-color: #0e0b16 !important;
+}
+
+.custom-toggler.navbar-toggler {
+  border: white 5px solid;
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#logo {
+  width: 80px;
+}
+
+#william {
+  text-decoration: none;
+  color: #a239ca;
+  font-size: 50px;
+}
+
+#lfh {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: #a239ca !important;
+  border-bottom: #a239ca solid 3px;
+}
+.active {
+  color: #a239ca !important;
+  border-bottom: #a239ca solid 3px;
+}
+
+.active:hover {
+  color: rgb(238, 80, 250) !important;
+  border-bottom: rgb(238, 80, 250) solid 3px;
+}
+.nav-item {
+  align-self: center;
+}
+
+.form-control {
+  border: #a239ca 3px solid;
+  font-size: 20px;
+}
+
+.form-control:active {
+  border: #a239ca 3px solid !important;
+}
+
+.btn {
+  border: solid 3px #a239ca !important ;
+  color: #ed86dc;
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  border: solid 3px #a239ca !important ;
+  background-color: #ed86dc !important;
+  color: white !important;
+}
+.abc {
+  background-color: red;
+  border: 10px solid red;
+}
+
+.description-left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 50px;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 991px) {
+  .description-left {
+    align-items: center;
+  }
+}
+
+.card-btn {
+  max-width: 100%;
+}
+
+.card {
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 400px;
+}
+
+.card img {
+  padding: 30px;
+}
+
+.content1 {
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .content1 {
+    height: 800px;
+    text-align: center;
+  }
+}
+#content1-img {
+  height: 400px;
+  margin-right: 300px;
+  animation: vibrate 5s;
+  animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width: 991px) {
+  #content1-img {
+    margin-right: 0px;
+  }
+}
+
+#content1-btn {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  width: max-content;
+}
+
+#content1-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+hr.footer-hr {
+  border: 3px solid white;
+  margin: 0% 5% 0% 5%;
+}
+
+.typingeffect {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.card1-img,.card2-img,.card3-img{
+  animation: vibrate 10s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-2deg); }
+  20% { transform: rotate(2deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-2deg); }
+  80% { transform: rotate(2deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-2deg); }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.control-panel  {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.video-panel{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0px 10px 10px 10px;
+  border-bottom-right-radius:30px ;
+  border-bottom-left-radius:30px ;
+}
+
+#video-media  {
+  border-radius: 30px;
+}
