@@ -280,7 +280,6 @@ span.titleCircle {
   background-color: white;
   display: inline-block;
   border-radius: 50%;
-  border: 2px solid var(--purple);
   position: relative;
   right: 13px;
   bottom: 8px;
