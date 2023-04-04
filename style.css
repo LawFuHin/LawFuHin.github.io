@@ -666,7 +666,7 @@ a:hover {
   font-size: 15px;
 }
 
-.active,
+.activeList,
 .collapse-button:hover {
   background-color: var(--backcolor3);
   border-radius: 10px 10px 0px 0px;
@@ -680,7 +680,7 @@ a:hover {
   margin-left: 5px;
 }
 
-.active:after {
+.activeList:after {
   content: "\2212";
 }
 
